@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="2.css" />
+
+    <!-- Internal Scripting -->
+    <script>
+      function helloInternal() {
+        alert("I am alert Box using Internal Scripting!!");
+      }
+    </script>
+
+    <script src="2.js"></script>
+  </head>
+  <body class="primary">
+    <h1>External Scripting</h1>
+    <input type="button" value="CALL EXTERNAL JS" onclick="helloExternal()" />
+
+    <h1>Internal Scripting</h1>
+    <input
+      type="button"
+      value="CALL USING INTERNAL JS"
+      onclick="helloInternal()"
+    />
+
+    <h1>Inline JavaScript</h1>
+    <input type="button" value="CALL JS" onclick="console.log('INLINE JS')" />
+    <input type="button" value="Alert Me" onclick="alert('I am alert box')" />
+  </body>
+</html>

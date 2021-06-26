@@ -1,0 +1,13 @@
+.my-input-box {
+  height: 40px;
+  width: 75vw;
+  margin-bottom: 8px;
+
+  font-size: 24px;
+  font-family: cursive;
+}
+
+.my-input-btn {
+  height: 40px;
+  width: 75vw;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <script src="6.js"></script>
+  </head>
+  <body>
+    <h2 class="bg-danger text-light p-3">Mini FaceBook</h2>
+
+    <div class="row mx-2">
+      <input
+        id="inputBoxId"
+        class="form-control col-10"
+        type="text"
+        placeholder="Post your thought here"
+      />
+      <input
+        value="POST"
+        class="btn btn-danger col-2"
+        type="button"
+        onclick="postHere()"
+      />
+    </div>
+
+    <div id="parent" class="mx-2"></div>
+  </body>
+</html>
